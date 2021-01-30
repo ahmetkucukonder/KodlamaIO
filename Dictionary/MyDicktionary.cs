@@ -11,21 +11,21 @@ namespace Dictionary
 
         public MyDicktionary() //Create advanced constructor for my dicktionary
         {
-            _itemKey = new TKey[0]; //Create key for array
-            _itemValue = new TValue[0]; //Create value for array
+            _itemKey = new TKey[0]; //Create key array
+            _itemValue = new TValue[0]; //Create value array
         }
 
         public void Add(TKey key, TValue value) //Add any data to my dicktionary
         {
-            _tempKey = _itemKey; //Protect key data in temp
-            _tempValue = _itemValue; //Protect value data in temp
+            _tempKey = _itemKey; //Keep keys in temp
+            _tempValue = _itemValue; //Keep values in temp
             _itemKey = new TKey[_tempKey.Length + 1]; //Increase key index bound
             _itemValue = new TValue[_tempKey.Length + 1]; //Increase value index bound
 
             for (int i = 0; i < _tempKey.Length; i++) //Some loop
             {
-                _itemKey[i] = _tempKey[i]; //Yo temp give back my key data
-                _itemValue[i] = _tempValue[i]; //Yo temp give back my value data
+                _itemKey[i] = _tempKey[i]; //Yo temp give back my keys
+                _itemValue[i] = _tempValue[i]; //Yo temp give back my values
             }
             _itemKey[_itemKey.Length - 1] = key; //Add my key to array
             _itemValue[_itemValue.Length - 1] = value; //Add my value to array
