@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{4F5AD0F6-2589-46A9-A0A9-5E9BEDF3714F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{4F5AD0F6-2589-46A9-A0A9-5E9BEDF3714F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{0D78EE0C-3CB3-4609-9318-F17A416B1FA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{0D78EE0C-3CB3-4609-9318-F17A416B1FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{129016A5-3437-454C-8C6C-0EF422DF73D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{129016A5-3437-454C-8C6C-0EF422DF73D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{F2F0A7AD-1FF3-4A6F-95E8-D9B6683FFAF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{F2F0A7AD-1FF3-4A6F-95E8-D9B6683FFAF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics2", "Generics2\Generics2.csproj", "{E5A3117B-ED8D-4A07-9DA5-BE4A9E6BA512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics2", "Generics2\Generics2.csproj", "{E5A3117B-ED8D-4A07-9DA5-BE4A9E6BA512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{BCD97251-CD1C-4C24-97F2-2933061B05F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{BCD97251-CD1C-4C24-97F2-2933061B05F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOut", "RefOut\RefOut.csproj", "{A3F188CE-8C21-4675-B0CF-CAA760BE3E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefOut", "RefOut\RefOut.csproj", "{A3F188CE-8C21-4675-B0CF-CAA760BE3E75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethods", "ClassMethods\ClassMethods.csproj", "{D1222948-467B-4E79-9634-B995E4EA1161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMethods", "ClassMethods\ClassMethods.csproj", "{D1222948-467B-4E79-9634-B995E4EA1161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E5357ACB-2AE5-456C-8CB8-25604DF5750C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{D1222948-467B-4E79-9634-B995E4EA1161}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1222948-467B-4E79-9634-B995E4EA1161}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1222948-467B-4E79-9634-B995E4EA1161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5357ACB-2AE5-456C-8CB8-25604DF5750C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5357ACB-2AE5-456C-8CB8-25604DF5750C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5357ACB-2AE5-456C-8CB8-25604DF5750C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5357ACB-2AE5-456C-8CB8-25604DF5750C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
